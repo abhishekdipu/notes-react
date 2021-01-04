@@ -5,23 +5,24 @@
 - we don't have built-in router in react, so we have to use some 3rd part router lib.
 
 - we will user 'react-router-dom'.
-- steps to use.
 
-  1. npm i react-router-dom
+## - steps to follow.
 
-  2. src-> index.js
+1. npm i react-router-dom
 
-  ```js
-  import { BrowserRouter } from "react-router-dom";
-  ReactDOM.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>,
-    document.getElementById("root")
-  );
-  ```
+2. src-> index.js
 
-2. src -> App.js
+```js
+import { BrowserRouter } from "react-router-dom";
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
+```
+
+3. src -> App.js
 
 ```js
 import { Route, Switch } from "react-router-dom";
