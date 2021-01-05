@@ -9,3 +9,5 @@
 
 - this keyword is difficult to understand in javascript.
 - binding of even handler is required in class component.
+
+- state varibale can be number, string, boolean, object , array

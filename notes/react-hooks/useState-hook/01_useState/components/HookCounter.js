@@ -1,3 +1,4 @@
+//buttun to increase a count by 1
 import React, { useState } from "react";
 
 const HookCounter = () => {

@@ -15,6 +15,11 @@ class Counter extends Component {
     });
   };
 
+  //this is the recommanded method, as it keep the track of previous state of the component
+  // increment = () => {
+  //   this.setState((prevState) => ({ count: prevState + 1 }));
+  // };
+
   decrement = () => {
     this.setState({
       count: this.state.count - 1,

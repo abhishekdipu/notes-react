@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 
 const CounterUsingHook = () => {
-  const [count, setCount] = useState(0);
+  let initialCount = 0;
+  const [count, setCount] = useState(initialCount);
   return (
     <div>
-      <button onClick={() => setCount(count - 1)}>-1</button>
       <span>{count}</span>
       <button onClick={() => setCount(count + 1)}>+1</button>
+      <button onClick={() => setCount(count - 1)}>-1</button>
+      <button onClick={() => setCount(initialCount)}>Reset</button>
+
+      {/* <button onClick={() => setCount((prevState) => prevState + 1)}>+1</button>
+      <button onClick={() => setCount((prevState) => prevState - 1)}>-1</button> */}
     </div>
   );
 };
