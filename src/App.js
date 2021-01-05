@@ -1,11 +1,9 @@
-import ClassCounter from "./components/ClassCounter";
-import Counter from "./components/Counter";
+import ClassMouseMove from "./components/ClassMouseMove";
 
 function App() {
   return (
     <div>
-      <Counter />
-      {/* <ClassCounter /> */}
+      <ClassMouseMove />
     </div>
   );
 }
