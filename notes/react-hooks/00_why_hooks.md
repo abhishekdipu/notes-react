@@ -11,3 +11,10 @@
 - binding of even handler is required in class component.
 
 - state varibale can be number, string, boolean, object , array
+
+## which hook for what?
+
+- useState/useReducer : for state
+- useEffect : for side effect(api calls)
+- useContext: for context api(using/updating state of 1 comp from other direclty)
+- useCallback/useMemo : for performance optimization

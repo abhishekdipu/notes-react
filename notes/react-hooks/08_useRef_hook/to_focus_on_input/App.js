@@ -1,9 +1,9 @@
-import Timer from "./components/Timer";
+import FocusInput from "./components/FocusInput";
 
 const App = () => {
   return (
     <div>
-      <Timer />
+      <FocusInput />
     </div>
   );
 };

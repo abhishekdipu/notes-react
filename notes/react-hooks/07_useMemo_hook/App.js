@@ -1,9 +1,9 @@
-import Timer from "./components/Timer";
+import Counter from "./components/Counter";
 
 const App = () => {
   return (
     <div>
-      <Timer />
+      <Counter />
     </div>
   );
 };
