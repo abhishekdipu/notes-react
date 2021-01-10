@@ -1,9 +1,9 @@
-import Timer from "./components/Timer";
+import AlertInputData from "./components/AlertInputData";
 
 const App = () => {
   return (
     <div>
-      <Timer />
+      <AlertInputData />
     </div>
   );
 };
